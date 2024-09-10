@@ -170,7 +170,7 @@
   color: var(--light);
 }
 
-.portfolio-item .portfolio-btn {
+.portfolio-item .portfolio-btn,.portfolio-item .portfolio-mobile-btn {
   position: absolute;
   width: 0;
   height: 0;
@@ -188,6 +188,13 @@
   height: calc(100% - 60px);
   top: 30px;
   left: 30px;
+}
+.portfolio-item:hover .portfolio-mobile-btn {
+  opacity: 1;
+  width: calc(100% - 250px);
+  height: calc(100% - 60px);
+  top: 30px;
+  left: 22px;
 }
 
 .portfolio-item i {
@@ -217,10 +224,10 @@
   background: var(--primary);
 }
 
-.fa-eye{
-  font-size: 40px !important;
+.fa-eye,.fa-link{
+  font-size: 30px !important;
 }
 
 .fa-eye-1{
-  font-size: 40px !important;
+  font-size: 30px !important;
 }
