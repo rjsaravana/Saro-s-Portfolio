@@ -170,7 +170,8 @@
   color: var(--light);
 }
 
-.portfolio-item .portfolio-btn,.portfolio-item .portfolio-mobile-btn {
+.portfolio-item .portfolio-btn,
+.portfolio-item .portfolio-mobile-btn {
   position: absolute;
   width: 0;
   height: 0;
@@ -189,6 +190,7 @@
   top: 30px;
   left: 30px;
 }
+
 .portfolio-item:hover .portfolio-mobile-btn {
   opacity: 1;
   width: calc(100% - 250px);
@@ -224,10 +226,59 @@
   background: var(--primary);
 }
 
-.fa-eye,.fa-link{
+.fa-eye,
+.fa-link {
   font-size: 30px !important;
 }
 
-.fa-eye-1{
+.fa-eye-1 {
   font-size: 30px !important;
 }
+/* 
+.contact-icons a:hover {
+  background: #314355 !important;
+}
+
+.contact-icons a:first-child:hover {
+  border: 1px solid #171515 !important;
+}
+
+.contact-icons a:nth-child(2):hover {
+  border: 1px solid #3b5998 !important;
+}
+
+.contact-icons a:nth-child(3):hover {
+  border: 1px solid #0077B5 !important;
+}
+
+.contact-icons a:nth-child(4):hover {
+  border: 1px solid #cc2366!important;
+  border-image: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888) 2
+}
+
+.contact-icons a:last-child:hover {
+  border: 1px solid #171515 !important;
+}
+
+
+.contact-icons a:hover .fa-x-twitter {
+  color: #171515 !important;
+}
+
+.contact-icons a:hover .fa-facebook-f {
+  color: #3b5998 !important;
+}
+
+.contact-icons a:hover .fa-linkedin-in {
+  color: #0077B5 !important;
+}
+
+.contact-icons a:hover .fa-instagram {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.contact-icons a:hover .fa-github {
+  color: #171515 !important;
+} */
